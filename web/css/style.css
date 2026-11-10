@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 5, 2026, 1:46:57 AM
+    Author     : wafiy
+    Stylesheet for Personal Profile Web Application
+
+*/
+
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #4a3f9f;
+    color: #ffffff;
+    padding: 18px;
+}
+
+/* Profile display page */
+.label-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #764ba2;
+}
+
+.value-text {
+    margin-top: 2px;
+    color: #333333;
+    word-wrap: break-word;
+}
+
+/* Hide buttons when printing */
+@media print {
+    .btn {
+        display: none;
+    }
+}
