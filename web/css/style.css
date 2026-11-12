@@ -1,0 +1,116 @@
+/*
+    Stylesheet for Personal Profile Web Application
+    Blue theme (#0042AC to #00D3FB)
+    @author wafiy
+*/
+
+/* Blue gradient background */
+body {
+    background: linear-gradient(135deg, #0042AC, #0080DC, #00D3FB);
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/* Snowy white form card */
+.card {
+    background-color: #fffafa;
+    border: none;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 20, 80, 0.35);
+}
+
+.card-header {
+   background: #0042AC;
+    color: #ffffff;
+    padding: 18px;
+}
+
+/* Form fields */
+.form-label {
+    font-weight: 600;
+    color: #0a2a5e;
+}
+
+.form-control:focus {
+    border-color: #0042AC;
+    box-shadow: 0 0 0 0.2rem rgba(0, 66, 172, 0.25);
+}
+
+/* Submit Profile button: light blue */
+.btn-primary {
+    background: #7fdbff;
+    border: none;
+    color: #052a5c;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background: #4cc9f5;
+    color: #052a5c;
+}
+
+/* Clear Form button */
+.btn-outline-secondary {
+    border-color: #0042AC;
+    color: #0042AC;
+    border-radius: 10px;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #0042AC;
+    border-color: #0042AC;
+    color: #ffffff;
+}
+
+/* Profile display page */
+.label-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #0042AC;
+}
+
+.value-text {
+    margin-top: 2px;
+    color: #333333;
+    word-wrap: break-word;
+}
+
+.btn-success {
+    background-color: #0042AC;
+    border-color: #0042AC;
+    border-radius: 10px;
+}
+
+.btn-success:hover {
+    background-color: #00307d;
+    border-color: #00307d;
+}
+
+.btn-outline-primary {
+    border-color: #00a8d6;
+    color: #007fa3;
+    border-radius: 10px;
+}
+
+.btn-outline-primary:hover {
+    background-color: #00a8d6;
+    border-color: #00a8d6;
+    color: #ffffff;
+}
+
+.alert-success {
+    background-color: #e6f7ff;
+    border-color: #7fdbff;
+    color: #05406b;
+}
+
+/* Hide buttons when printing */
+@media print {
+    .btn {
+        display: none;
+    }
+}
